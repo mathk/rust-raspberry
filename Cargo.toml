@@ -1,0 +1,6 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+authors = ["Mathieu Suen <mathk.sue@gmail.com>"]
+
+[dependencies]
