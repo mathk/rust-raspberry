@@ -3,4 +3,10 @@ name = "kernel"
 version = "0.1.0"
 authors = ["Mathieu Suen <mathk.sue@gmail.com>"]
 
+[profile.dev]
+lto = true
+panic = "abort"
+incremental = false
+
 [dependencies]
+rlibc = "1.0.0"
